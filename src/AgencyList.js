@@ -87,7 +87,7 @@ class AgencyList extends Component {
               <nav className="w3-sidebar w3-animate-left w3-overlay w3-bar-block w3-white w3-collapse w3-top AgencyList-sidebar" id="sidebar" style={{display: display}}>
                 {/* Close Button */}
                 <div className="w3-bar w3-light-grey">
-                  <span className="w3-bar-item w3-padding-16 w3-hide-small w3-hide-medium AgencyList-title">Birmingham Transit</span>
+                  <span className="w3-bar-item w3-padding-16 w3-hide-small w3-hide-medium AgencyList-title">Go San Antonio</span>
                   <button onClick={() => this.onClose()}
                         className="w3-button w3-display-topright w3-hover-red w3-padding-16 w3-hide-large"
                         title="Close Modal">&times;</button>
@@ -104,7 +104,7 @@ class AgencyList extends Component {
               {/* Top menu on small screens */}
               <header className="w3-bar w3-top w3-hide-large w3-xlarge w3-light-grey">
                 <span className="AgencyList-bar-item">
-                  Birmingham Transit
+                  Go San Antonio
                 </span>
                 <span className="AgencyList-bar-item-close w3-button w3-right w3-red" onClick={() => this.onOpen()}>
                   <i className="fa fa-bars"></i>
