@@ -1,0 +1,117 @@
+.AgencyList {
+
+}
+
+@media only screen and (min-width: 400px) {
+
+    .AgencyList-header {
+	display: inline-block;
+	max-width: 260px;
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+	text-align: left!important;
+	padding-left: 0px;
+	font-size: 24px;
+	font-style: italic;
+    }
+    
+    .AgencyList-sidebar {
+	width: 350px!important;
+	z-index: 3000!important;
+    }
+    .AgencyList-route-name {
+	font-size: .9em;
+	display: inline-block;
+	max-width: 260px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .AgencyList-header {
+	display: inline-block;
+	max-width: 210px;
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+	text-align: left!important;
+	padding-left: 0px;
+	font-size: 24px;
+	font-style: italic;
+    }
+    
+    .AgencyList-sidebar {
+	width: 300px!important;
+	z-index: 3000!important;
+    }
+    .AgencyList-route-name {
+	font-size: .9em;
+	display: inline-block;
+	max-width: 210px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+    }
+}
+
+.AgencyList-sidebar-overlay {
+    cursor: pointer;
+    z-index: 2999!important;
+}
+
+.AgencyList-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
+}
+
+.AgencyList-bar-item {
+    font-family: 'Pacifico', cursive;
+    font-size: .90em;
+    position: fixed;
+    left: 10px;
+    margin-top: 10px;
+}
+
+.AgencyList-bar-item-close {
+    opacity: 1.0;
+}
+
+.AgencyList-padding-0 {
+    padding-left:0px!important;
+    padding-top:0px!important;
+    padding-bottom:0px!important;
+    padding-right:0px!important;
+}
+
+.AgencyList-agency button {
+    /*padding-left: 25px !important;*/
+}
+
+.AgencyList-route {
+    padding-left: 25px !important;
+}
+
+.AgencyList-checked {
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: 0;
+    display: inline-block;
+    float: right;
+    background: url(images/checked.svg) no-repeat;
+    width: 22px;
+    height: 22px;
+}
+
+.AgencyList-unchecked {
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: 0;
+    display: inline-block;
+    float: right;
+    background: url(images/unchecked.svg) no-repeat;
+    width: 22px;
+    height: 22px;
+}
+
